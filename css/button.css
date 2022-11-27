@@ -1,0 +1,41 @@
+.agreement-form__button {
+  font-weight: 700;
+  line-height: 1.25;
+  padding: 16px 40px;
+  color: #fff;
+}
+
+.agreement-form__button {
+  flex: 1 1 340px;
+}
+
+.agreement-form__button span {
+  position: relative;
+  z-index: 3;
+}
+
+.agreement-form__button::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  transition: opacity 0.3s ease 0s;
+  opacity: 0;
+  border-radius: 4px;
+  background: linear-gradient(55.95deg, rgb(248, 197, 184) 0%, #ff0800 100%);
+}
+
+.agreement-form__button:hover::before {
+  opacity: 1;
+}
+.agreement-form__button {
+  background: linear-gradient(55.95deg, #ff0800 0%, #f0c7af 100%);
+  border-radius: 4px;
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+}

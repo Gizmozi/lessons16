@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <title>Lesson16</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header"></header>
+      <main class="page">
+        <div class="page__container">
+          <div class="page__information-form information">
+            <div class="information__image">
+              <img class="information__img" src="img/iwoman.svg" alt="woman" />
+            </div>
+            <div class="information__content">
+              <h6 class="information__subtitle">Any questions?</h6>
+              <h2 class="information__title">Drop us a line</h2>
+              <form action="#" method="POST" class="information__form">
+                <div class="form-information">
+                  <div class="form-information__line form-information__name">
+                    <label for="names" class="form-information__label"
+                      >First Name*</label
+                    >
+                    <input
+                      type="text"
+                      id="names"
+                      required
+                      placeholder="Your first name"
+                      class="form-information__input"
+                    />
+                  </div>
+                  <div
+                    class="form-information__line form-information__lastnames"
+                  >
+                    <label for="lastname" class="form-information__label"
+                      >Last Name*</label
+                    >
+                    <input
+                      type="text"
+                      id="lastname"
+                      required
+                      placeholder="Your last name"
+                      class="form-information__input"
+                    />
+                  </div>
+                  <div class="form-information__line form-information__mail">
+                    <label for="mail" class="form-information__label"
+                      >Email*</label
+                    >
+                    <input
+                      type="mail"
+                      id="mail"
+                      required
+                      placeholder="Your working email"
+                      class="form-information__input"
+                    />
+                  </div>
+                  <div class="form-information__line form-information__phone">
+                    <label for="phone" class="form-information__label"
+                      >Phone</label
+                    >
+                    <input
+                      type="tel"
+                      id="phone"
+                      placeholder="Your phone number"
+                      class="form-information__input"
+                    />
+                  </div>
+                  <div class="form-information__line form-information__message">
+                    <label for="message" class="form-information__label"
+                      >Message*</label
+                    >
+                    <textarea
+                      class="form-information__meseg"
+                      required
+                      name="text"
+                      id="message"
+                      placeholder="Your message"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="information__agreement agreement-form">
+                  <div class="agreement-form__line check-box">
+                    <input
+                      id="check"
+                      type="checkbox"
+                      value="agree"
+                      name="checket"
+                      class="check-box__input"
+                    />
+                    <label for="check" class="check-box__label"
+                      ><span class="check-box__text"
+                        >I agree to receive communications from Createx Online
+                        School</span
+                      ></label
+                    >
+                  </div>
+                  <button class="agreement-form__button" type="submit">
+                    <span class="button">Send message</span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>
